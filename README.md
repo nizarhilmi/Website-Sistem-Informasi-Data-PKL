@@ -2,5 +2,3 @@
 
 
 website ini menggunakan javascript boostrap dan css
-
-(on progress)
