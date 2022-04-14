@@ -1,4 +1,10 @@
-	<!DOCTYPE html>
+<?php
+    include "koneksi.php";
+    //untuk pemilihan kelas yang diambil dari database kelas
+    $dbpkl = "select * from datapkl";
+    $data_pkl = $conn -> query($dbpkl);
+?>
+<!DOCTYPE html>
 	<html lang="zxx" class="no-js">
 	<head>
 		<!-- Mobile Specific Meta -->
@@ -34,7 +40,7 @@
 			<header class="default-header">
 				<nav class="navbar navbar-expand-lg  navbar-light">
 					<div class="container">
-						  <a class="navbar-brand" href="index.html">
+						  <a class="navbar-brand" href="index.php">
 						  	<img src="img/logoakhir.png" alt="">
 						  </a>
 						  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -83,7 +89,7 @@
 								Kami bersepakat untuk membangun website ini yang diharap dapat membantu. 
 							<div class="buttons">
 								<center>
-								<a href="generic.html" class="about-btn text-uppercase primary-border circle">Selengkapnya</a>
+								<a href="generic.php" class="about-btn text-uppercase primary-border circle">Selengkapnya</a>
 								</center>
 							</div>
 						</div>
@@ -289,7 +295,7 @@
 				</div>
 				<br>
 				<center>
-					<a href="pkldata.html" class="text-uppercase primary-btn2 primary-border circle">Selengkapnya</a>
+					<a href="pkldata.php" class="text-uppercase primary-btn2 primary-border circle">Selengkapnya</a>
 				</center>
 				<br>	
 			</section>

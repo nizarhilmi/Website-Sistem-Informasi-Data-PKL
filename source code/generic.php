@@ -1,4 +1,4 @@
-	<!DOCTYPE html>
+<!DOCTYPE html>
 	<html lang="zxx" class="no-js">
 	<head>
 		<!-- Mobile Specific Meta -->
@@ -34,7 +34,7 @@
 			<header class="default-header">
 				<nav class="navbar navbar-expand-lg  navbar-light">
 					<div class="container">
-						  <a class="navbar-brand" href="index.html">
+						  <a class="navbar-brand" href="index.php">
 						  	<img src="img/logoakhir.png" alt="">
 						  </a>
 						  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -43,10 +43,10 @@
 
 						  <div class="collapse navbar-collapse justify-content-end align-items-center" id="navbarSupportedContent">
 						    <ul class="navbar-nav">
-								<li><a href="index.html#dashboard">Dashboard</a></li>
-								<li><a href="generic.html">Profile</a></li>
-								<li><a href="index.html#service">Pelayanan</a></li>
-								<li><a href="pkldata.html">Data PKL</a></li>								
+								<li><a href="index.php#dashboard">Dashboard</a></li>
+								<li><a href="generic.php">Profile</a></li>
+								<li><a href="index.php#service">Pelayanan</a></li>
+								<li><a href="pkldata.php">Data PKL</a></li>								
 							   <!-- Dropdown -->
 							    						
 						    </ul>
